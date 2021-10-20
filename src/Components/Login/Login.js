@@ -21,9 +21,9 @@ const Login = () => {
     }
 
     return (
-        <div className="login bg-info">
+        <div className="login bg-success my-5">
             <form onSubmit={handleSubmit}>
-                <h1 className="font-bold text-2xl text-center text-indigo-900">Please {isLogin ? "Login" : "Register"}</h1>
+                <h1 className="text-danger text-center text-bold-700">Please {isLogin ? "Login" : "Register"}</h1>
                 {
                     !isLogin && <input onChange={handleNameChange} type="text" placeholder="Enter Your Name" />
                 }

@@ -10,10 +10,10 @@ const Services = () => {
         .then(data => setItems(data))
      },[])
     return (
-        <div className="container"> 
+        <div className="container my-5"> 
         <div className="row" id="services">
             <div className="col-md-12">
-            <h1 className="text-center text-success">Our Services </h1>
+            <h1 className="text-center text-success my-4">Our Services </h1>
         
             <div className="text-center">
             <p className="text-lighter text-danger">What We Offer</p>

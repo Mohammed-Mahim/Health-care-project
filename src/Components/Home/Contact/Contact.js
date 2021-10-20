@@ -21,7 +21,7 @@ const Contact = () => {
                    <p className="text-muted">2200 western Ave. seattle WA-3429</p>
 
                     <h4>Information Sales </h4>
-                   <p className="fw-bold"><strong>healthcare@gmail.com</strong> </p>
+                   <p className="fw-bold"><strong>mentalhealthcare@gmail.com</strong> </p>
                </div>
                <div className="col-md-6 px-4">
                    <small>Please note: all fields are required</small>

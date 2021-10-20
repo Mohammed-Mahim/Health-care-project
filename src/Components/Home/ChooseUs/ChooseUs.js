@@ -5,7 +5,7 @@ const ChooseUs = () => {
     return (
         
         <div className="py-5  mt-5 choose__us mt-2 grid md:grid-cols-2 sm:grid-cols-1 row" id="choose-us">
-            <h1 className="text-success text-center py-2">Why Choose Us.</h1>
+            <h1 className="text-success text-center py-5">Why Choose Us.</h1>
             <div className="col-md-6 py-5 mt-5">
                 <img className="img-fluid" src="https://polpress.smartdemowp.com/wp-content/uploads/2021/08/chooseus-2.jpg" alt="" />
             </div>

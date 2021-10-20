@@ -1,25 +1,56 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import "./Footer.css";
 
 const Footer = () => {
     return (
-    <div className="container-fluid bg-dark my-5 mb-0">
-        <div className="text-center row border-bottom p-3">
-            <div className="col-md-8 p-3">
-            <p class=" p-2 text-white"> This website uses cookies to ensure you get the best experience on our website. <a href="#">Cookies Policy</a>  </p>
+        <>
+        <div className="container-fluid bg-dark text-white py-3">
+            <div className="row">
+           
+            <div className="col-md-4 px-4">
+            <div>
+                    <h2>Contact</h2>
+                    <p>Phone <br /> <span>11-55-777-88</span></p>
+                    <p>Email <br /> <span>mentalhealth.com</span></p>
+                    <p>Address <br /> <span>123, kajkistan, </span></p>
             </div>
-            <div className="col-md-4 text-white py-2 text-white ">
-            <a href="#">Privacy Policy</a><br />
-            <a href="#">Terms of Use</a><br />
-            <a href="#">Copyright</a>
-        
+            </div>
+                <div className="col-md-4 px-4">
+                <div>
+                    <h2>Opening Hour</h2>
+                    <ul>
+                        <li>Sun:09:00 AM - 09:00 PM</li>
+                        <li>Mon:09:00 AM - 09:00 PM</li>
+                        <li>Tue:09:00 AM - 09:00 PM</li>
+                        <li>Wed:09:00 AM - 09:00 PM</li>
+                        <li>Thu:09:00 AM - 09:00 PM</li>
+                    </ul>
+                </div>
+                </div>
+                <div className="col-md-4 px-4">
+                <div>
+                    <h2>Support</h2>
+                    <ul>
+                        <li>Online Support</li>
+                        <li>Free Consultancy</li>
+                        <li>24/7 Service</li>
+                        <li>Make Call</li>
+                        <li>Contract Support</li>
+                    </ul>
+                </div>
+                </div>
+                <div className="copyright text-white flex justify-around p-5 text-center border-top">
+                <p>Copyright &copy; 2021 Mental Health. Designed By Ah-Mahim</p>
                 
             </div>
-        </div>
-        <div className="col-md text-center">
-            <p class=" p-2 text-white"> &copy; All Right Reserved by-Ah Mahim </p>
             </div>
-    </div>
-       
+        </div>
+            
+                
+                
+
+        </>
     );
 };
 

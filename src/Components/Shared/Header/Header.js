@@ -34,7 +34,7 @@ const Header = () => {
                   
                     </>
                     {
-                    !user.email ? <Link to="/login"><button type="button" className="btn__regular ">SignUp</button></Link> :
+                    !user.email ? <Link to="/login"><button type="button" className="btn__regular ">Login</button></Link> :
                     <div className="login__section">
                         <h5 className="ml-5"> <span className="text-white">{user.displayName}</span></h5>
                     <button type="button" onClick={logOut} className="btn__regular">LogOut</button>
