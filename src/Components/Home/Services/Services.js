@@ -26,10 +26,10 @@ const Services = () => {
         <div className=" service ">
             {
            items.map(service => <Service
-           key = {service.name}
+           key = {service.id}
            service ={service}
            ></Service>)
-       }
+        }
         </div>
       
 

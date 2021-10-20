@@ -1,0 +1,41 @@
+/* button style */
+.btn__regular {
+    background-color: #20d1b9b0;
+    color: white;
+    font-weight: 500;
+    padding: 8px 25px;
+    -webkit-transition: 0.5s;
+    transition: 0.4s;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    border-radius: 8px;
+  }
+  .btn__regular:hover {
+    color: #fff;
+    background-color: #017763;
+  }
+  
+  .login__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* media query */
+  @media (max-width: 480px) {
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .header h1 {
+      margin-bottom: 5px;
+    }
+    .header ul li {
+      margin-right: 7px;
+    }
+    .buttons {
+      margin-top: 15px;
+    }
+  }
+  

@@ -1,30 +1,3 @@
-// import data from './tools.JSON'
-// import React, { useEffect, useState } from 'react';
-// import { useParams } from 'react-router';
-
-
-// const serviceDetail = () =>{
-//     const {serviceId} = useParams();
-
-//     const [details, setDetails] = useState({});
-//     console.log(details);
-
-//     useEffect(() =>{
-//         const serviceDetail = data.find(detail => detail.id == serviceId)
-//         setDetails(serviceDetail)
-//         console.log(serviceDetail);
-//     },[]);
-// }
-// const Detail = () => {
-
-//     return (
-//         <div>
-//            <h3>heading coming soon</h3>
-//         </div>
-//     );
-// };
-
-// export default Detail;
 
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
